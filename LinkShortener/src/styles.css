@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* General Body Styling */
+body {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #343a40 !important;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #ddd !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+/* Card Styling */
+.card {
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #4facfe;
+  border-color: #4facfe;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #00f2fe;
+  border-color: #00f2fe;
+  transform: scale(1.05);
+}
+
+/* Input Styling */
+input.form-control {
+  height: 50px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
+
+input.form-control:focus {
+  border-color: #4facfe;
+  box-shadow: 0 0 10px rgba(79, 172, 254, 0.5);
+}
+
+/* URL Display */
+.shortened-url {
+  font-size: 1.2rem;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.shortened-url:hover {
+  text-decoration: underline;
+}
+
+/* QR Code Section */
+.qr-code {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.qr-code canvas {
+  border: 2px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+}
+
