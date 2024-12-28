@@ -12,4 +12,4 @@ A modern and user-friendly web application that converts long URLs into concise,
 
 ## Technologies Used
 
-HTML, CSS, JavaScript, Node.js, React
+HTML, CSS, JavaScript, React, Node.js
